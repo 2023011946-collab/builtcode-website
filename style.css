@@ -37,9 +37,20 @@ header {
 }
 
 .logo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
   font-weight: 800;
   letter-spacing: -0.04em;
   font-size: 1.15rem;
+  line-height: 1.15;
+}
+
+.logo-tag {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
 }
 
 nav {
@@ -130,7 +141,7 @@ h2 {
 
 section {
   border-bottom: 1px solid var(--line);
-  scroll-margin-top: 76px;
+  scroll-margin-top: 92px;
 }
 
 .about-grid {

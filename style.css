@@ -41,12 +41,26 @@ header {
 
 .logo {
   display: flex;
-  flex-direction: column;
-  gap: 2px;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
   font-weight: 800;
   letter-spacing: -0.04em;
   font-size: 1.15rem;
   line-height: 1.15;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.logo-mark {
+  width: 46px;
+  height: 46px;
+  flex: none;
+  display: block;
 }
 
 .logo-tag {
